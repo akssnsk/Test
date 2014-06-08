@@ -12,7 +12,3 @@ clean:
 		$(MAKE) -C $$dir clean; \
 	done
 
-
-#Dependency example   
-#foo: baz
-

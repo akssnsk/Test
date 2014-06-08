@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS= -c -I. -std=c++11 -pthread 
 LDFLAGS= -I. -lm -pthread -lpthread
-SOURCES= task.cpp main.cpp
+SOURCES= task.cpp main.cpp Node.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=task
 

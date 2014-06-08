@@ -21,3 +21,5 @@
 
 int fibonacchi(int n);
 
+int IsPrime(int n);
+

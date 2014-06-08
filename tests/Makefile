@@ -121,6 +121,30 @@ tasksToTest/fast:
 	$(MAKE) -f CMakeFiles/tasksToTest.dir/build.make CMakeFiles/tasksToTest.dir/build
 .PHONY : tasksToTest/fast
 
+home/akss/Dev/Test/task/Node.o: home/akss/Dev/Test/task/Node.cpp.o
+.PHONY : home/akss/Dev/Test/task/Node.o
+
+# target to build an object file
+home/akss/Dev/Test/task/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/tasksToTest.dir/build.make CMakeFiles/tasksToTest.dir/home/akss/Dev/Test/task/Node.cpp.o
+.PHONY : home/akss/Dev/Test/task/Node.cpp.o
+
+home/akss/Dev/Test/task/Node.i: home/akss/Dev/Test/task/Node.cpp.i
+.PHONY : home/akss/Dev/Test/task/Node.i
+
+# target to preprocess a source file
+home/akss/Dev/Test/task/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/tasksToTest.dir/build.make CMakeFiles/tasksToTest.dir/home/akss/Dev/Test/task/Node.cpp.i
+.PHONY : home/akss/Dev/Test/task/Node.cpp.i
+
+home/akss/Dev/Test/task/Node.s: home/akss/Dev/Test/task/Node.cpp.s
+.PHONY : home/akss/Dev/Test/task/Node.s
+
+# target to generate assembly for a file
+home/akss/Dev/Test/task/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/tasksToTest.dir/build.make CMakeFiles/tasksToTest.dir/home/akss/Dev/Test/task/Node.cpp.s
+.PHONY : home/akss/Dev/Test/task/Node.cpp.s
+
 home/akss/Dev/Test/task/task.o: home/akss/Dev/Test/task/task.cpp.o
 .PHONY : home/akss/Dev/Test/task/task.o
 
@@ -179,6 +203,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... runTests"
 	@echo "... tasksToTest"
+	@echo "... home/akss/Dev/Test/task/Node.o"
+	@echo "... home/akss/Dev/Test/task/Node.i"
+	@echo "... home/akss/Dev/Test/task/Node.s"
 	@echo "... home/akss/Dev/Test/task/task.o"
 	@echo "... home/akss/Dev/Test/task/task.i"
 	@echo "... home/akss/Dev/Test/task/task.s"
