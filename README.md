@@ -16,7 +16,7 @@ number is prime.
 
 Sources:   
 The repository contains directory for the scheduling task and
-directory with unit tests. It was done and tested on Ubuntu 12.10
+directory with unit tests. It was done and tested on Ubuntu 12.04
 
 System requirements and prerequisites:   
 To build the source, a test box should have gcc 4.8.1, make, cmake and gtest. 
