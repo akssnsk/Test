@@ -19,7 +19,7 @@ The repository contains directory for the scheduling task and
 directory with unit tests. It was done and tested on Ubuntu 12.10
 
 System requirements and prerequisites:   
-To build the source, a test box should have cmake and gtest. 
+To build the source, a test box should have gcc 4.8.1, make, cmake and gtest. 
 
 Building:   
 In the root directory of the test task just run:
