@@ -22,12 +22,12 @@ System requirements and prerequisites:
 To build the source, a test box should have gcc 4.8.1, make, cmake and gtest. 
 
 Building:   
-In the root directory of the test task just run:
+In the root directory of the test task just run:   
 $ make
 
 If unit test didn't get compiled correctly, it's required to re-run cmake
-tool in tests directory:
-$ cd tests
-$ cmake CMakeLists.txt
+tool in tests directory:   
+$ cd tests   
+$ cmake CMakeLists.txt   
 
 
